@@ -1,0 +1,19 @@
+{
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-17",
+            "path": "/home/hannayjd/.sdkman/candidates/java/current",
+            "default": true
+        }
+    ],
+    "java.import.gradle.wrapper.enabled": false,
+    "java.import.gradle.home": "/home/hannayjd/.sdkman/candidates/gradle/current",
+    "java.import.gradle.java.home": "/home/hannayjd/.sdkman/candidates/java/current",
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.test.config": {
+        "name": "JUnit 5",
+        "workingDirectory": "${workspaceFolder}"
+    },
+    "java.debug.settings.enableRunDebugCodeLens": true,
+    "java.test.editor.enableShortcuts": true
+}

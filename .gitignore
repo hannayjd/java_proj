@@ -1,0 +1,11 @@
+.gradle
+build/
+bin/
+.settings/
+.project
+.classpath
+
+# Gradle wrapper files
+gradlew
+gradlew.bat
+gradle/wrapper/
