@@ -1,4 +1,6 @@
 {
+    // These settings configure the Java development environment in VS Code
+    // Configures Java runtime - specifies Java 17 installation from SDKMAN as the default runtime
     "java.configuration.runtimes": [
         {
             "name": "JavaSE-17",
@@ -6,14 +8,21 @@
             "default": true
         }
     ],
+    // Disables Gradle wrapper, instead using a globally installed Gradle
     "java.import.gradle.wrapper.enabled": false,
+    // Specifies the path to the Gradle installation (from SDKMAN)
     "java.import.gradle.home": "/home/hannayjd/.sdkman/candidates/gradle/current",
+    // Specifies which Java installation Gradle should use
     "java.import.gradle.java.home": "/home/hannayjd/.sdkman/candidates/java/current",
+    // Automatically updates project configuration when build files change
     "java.configuration.updateBuildConfiguration": "automatic",
+    // Configures the test environment to use JUnit 5 with workspace folder as working directory
     "java.test.config": {
         "name": "JUnit 5",
         "workingDirectory": "${workspaceFolder}"
     },
+    // Enables "Run" and "Debug" buttons in the editor above method declarations
     "java.debug.settings.enableRunDebugCodeLens": true,
+    // Enables keyboard shortcuts for running tests directly from the editor
     "java.test.editor.enableShortcuts": true
 }
